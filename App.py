@@ -7,7 +7,7 @@ with st.form(key='My Form'):
     password = st.text_input('Password')
     st.form_submit_button('login')
 
-img = Image.open("IEC group.Jpg")
+img = Image.open("IEC group.JPG")
 st.sidebar.image(img.resize((200,200)))
 
 st.checkbox("Agree")
